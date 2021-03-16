@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanhaiya Fitness</title>
+    <link rel="stylesheet" href="/demo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap" rel="stylesheet">
+    <style>
+        /* css: resse */
+        body {
+            padding: 0px;
+            margin: 0px;
+
+            color: white;
+            background-image: url('pexels-cesar-galeão-3253501.jpg');
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: 'Bitter', serif;
+
+        }
+
+        .left {
+            position: absolute;
+            left: 34px;
+            top: 36px;
+            display: inline-block;
+            /* border: 6px solid red; */
+            /* border-radius: 23px; */
+        }
+
+        .left img {
+            width: 109px;
+
+        }
+
+        .left div {
+            text-align: center;
+            text: center;
+        }
+
+        .mid {
+            display: block;
+            width: 37%;
+
+            margin: 57px auto;
+            /* border: 5px solid rgb(96, 173, 96); */
+        }
+
+        .right {
+            position: absolute;
+            right: 27px;
+            top: 60px;
+            display: inline-block;
+            /* border: 4px solid yellow; */
+            border-radius: 23px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(151, 136, 136);
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 17px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 33px 24px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .btn {
+            margin: 12px 9px;
+            color: white;
+            background-color: black;
+            border-radius: 13px;
+            padding: 0px 9px;
+            border: 2px solid gray;
+            font-size: 20px;
+            font-family: 'Bitter', serif;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 125px 90px;
+            padding: 18px 45px;
+            width: 33%;
+            height: 280px;
+            border-radius: 20px;
+            background-color: #5943436b;
+            border-radius: 56px;
+        }
+
+        .form,
+        .group input {
+            text-align: center;
+            display: block;
+            width: 270px;
+            padding: 6px;
+            border: 4px solid black;
+            border-radius: 10px;
+            margin: 6px auto;
+            font-family: 'Bitter', serif;
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 31%;
+            margin: 13px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="vector-black-and-white-illustration-of-gorilla-bodybuilder-removebg-preview.png" alt="">
+            <div>Kanhaiya Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of India now</h1>
+        <form action="no action.php">
+            <div class="group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+
+            <div class="group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+
+            <div class="group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+
+            <div class="group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
